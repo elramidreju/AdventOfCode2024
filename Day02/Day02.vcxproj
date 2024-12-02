@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{7d3d43f6-7253-47f2-a84c-7492db7dabd3}</ProjectGuid>
-    <RootNamespace>Day01</RootNamespace>
+    <ProjectGuid>{c012c24a-123e-4384-acb4-05dc0834f811}</ProjectGuid>
+    <RootNamespace>Day02</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="day01.cpp" />
+    <ClCompile Include="day02.cpp" />
+    <ClCompile Include="Report.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Report.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
